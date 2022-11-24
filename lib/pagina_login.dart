@@ -13,7 +13,14 @@ class _PaginaLoginState extends State<PaginaLogin> {
     return Scaffold(
       backgroundColor: Colors.deepOrange,
       body: Column(
-        children: [Text('Ola mundo')],
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: const <Widget>[
+          Text('Ola mundo'),
+          Text('Ola mundo'),
+          Text('Ola mundo'),
+          Text('Ola mundo'),
+        ],
       ),
     );
   }
