@@ -12,16 +12,27 @@ class _PaginaLoginState extends State<PaginaLogin> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.deepOrange,
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: const <Widget>[
-          Text('Ola mundo'),
-          Text('Ola mundo'),
-          Text('Ola mundo'),
-          Text('Ola mundo'),
-        ],
-      ),
+      body: Padding(
+          padding: const EdgeInsets.all(10),
+          child: Center(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                TextFormField(
+                  autofocus: true,
+                  keyboardType: TextInputType.number,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 22,
+                  ),
+                  decoration: InputDecoration(
+                      labelText: 'CPF',
+                      labelStyle: const TextStyle(color: Colors.white)),
+                ),
+              ],
+            ),
+          )),
     );
   }
 }
