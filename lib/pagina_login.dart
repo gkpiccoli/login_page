@@ -55,8 +55,13 @@ class _PaginaLoginState extends State<PaginaLogin> {
                     labelStyle: TextStyle(color: Colors.white)),
               ),
               const Divider(),
-              ButtonTheme(height: 60.0,
-              child: button,)
+              Container(
+                  height: 50,
+                  padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
+                  child: ElevatedButton(
+                    child: const Text('Login'),
+                    onPressed: () {},
+                  )),
             ],
           ),
         ),
