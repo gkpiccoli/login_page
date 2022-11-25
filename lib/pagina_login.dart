@@ -44,6 +44,7 @@ class _PaginaLoginState extends State<PaginaLogin> {
                 TextFormField(
                   autofocus: true,
                   keyboardType: TextInputType.visiblePassword,
+                  obscureText: true,
                   style: const TextStyle(
                     color: Colors.white,
                     fontSize: 22,
