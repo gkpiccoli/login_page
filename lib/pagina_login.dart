@@ -11,7 +11,7 @@ class _PaginaLoginState extends State<PaginaLogin> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepOrangeAccent,
+      backgroundColor: Colors.lightBlueAccent,
       body: Padding(
         padding: const EdgeInsets.all(10),
         child: Center(
@@ -60,8 +60,8 @@ class _PaginaLoginState extends State<PaginaLogin> {
                 child: Column(
                   children: [
                     Container(
-                      height: 500,
-                      width: 500,
+                      height: 50,
+                      width: 120,
                       padding: const EdgeInsets.fromLTRB(10, 10, 10, 10),
                       child: ElevatedButton(
                         child: const Text('Login'),

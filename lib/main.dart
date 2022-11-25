@@ -12,7 +12,7 @@ class MeuApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'página de login',
-      theme: ThemeData(primarySwatch: Colors.deepOrange),
+      theme: ThemeData(primarySwatch: Colors.lightBlue),
       home: const PaginaLogin(),
     );
   }
