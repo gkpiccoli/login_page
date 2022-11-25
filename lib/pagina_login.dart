@@ -28,7 +28,7 @@ class _PaginaLoginState extends State<PaginaLogin> {
                 ),
                 decoration: const InputDecoration(
                     labelText: 'Usuário',
-                    labelStyle: TextStyle(color: Colors.white)),
+                    labelStyle: TextStyle(color: Colors.black)),
               ),
               // TextFormField(
               //   autofocus: true,
@@ -52,7 +52,7 @@ class _PaginaLoginState extends State<PaginaLogin> {
                 ),
                 decoration: const InputDecoration(
                     labelText: 'Senha',
-                    labelStyle: TextStyle(color: Colors.white)),
+                    labelStyle: TextStyle(color: Colors.black)),
               ),
               //      const Divider(),
               Padding(

@@ -11,6 +11,7 @@ class MeuApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'página de login',
       theme: ThemeData(primarySwatch: Colors.lightBlue),
       home: const PaginaLogin(),
