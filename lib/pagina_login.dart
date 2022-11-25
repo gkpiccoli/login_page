@@ -24,43 +24,51 @@ class _PaginaLoginState extends State<PaginaLogin> {
                 keyboardType: TextInputType.text,
                 style: const TextStyle(
                   color: Colors.white,
-                  fontSize: 22,
+                  fontSize: 18,
                 ),
                 decoration: const InputDecoration(
-                    labelText: 'Nome',
+                    labelText: 'Usuário',
                     labelStyle: TextStyle(color: Colors.white)),
               ),
-              TextFormField(
-                autofocus: true,
-                keyboardType: TextInputType.number,
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 22,
-                ),
-                decoration: const InputDecoration(
-                    labelText: 'CPF',
-                    labelStyle: TextStyle(color: Colors.white)),
-              ),
-              const Divider(),
+              // TextFormField(
+              //   autofocus: true,
+              //   keyboardType: TextInputType.number,
+              //   style: const TextStyle(
+              //     color: Colors.white,
+              //     fontSize: 18,
+              //   ),
+              //   decoration: const InputDecoration(
+              //       labelText: 'CPF',
+              //       labelStyle: TextStyle(color: Colors.white)),
+              // ),
+              // const Divider(),
               TextFormField(
                 autofocus: true,
                 keyboardType: TextInputType.visiblePassword,
                 obscureText: true,
                 style: const TextStyle(
                   color: Colors.white,
-                  fontSize: 22,
+                  fontSize: 18,
                 ),
                 decoration: const InputDecoration(
                     labelText: 'Senha',
                     labelStyle: TextStyle(color: Colors.white)),
               ),
-              const Divider(),
-              Container(
-                height: 50,
-                padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
-                child: ElevatedButton(
-                  child: const Text('Login'),
-                  onPressed: () {},
+              //      const Divider(),
+              Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Column(
+                  children: [
+                    Container(
+                      height: 500,
+                      width: 500,
+                      padding: const EdgeInsets.fromLTRB(10, 10, 10, 10),
+                      child: ElevatedButton(
+                        child: const Text('Login'),
+                        onPressed: () {},
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ],
