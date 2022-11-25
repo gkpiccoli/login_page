@@ -56,12 +56,13 @@ class _PaginaLoginState extends State<PaginaLogin> {
               ),
               const Divider(),
               Container(
-                  height: 50,
-                  padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
-                  child: ElevatedButton(
-                    child: const Text('Login'),
-                    onPressed: () {},
-                  )),
+                height: 50,
+                padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
+                child: ElevatedButton(
+                  child: const Text('Login'),
+                  onPressed: () {},
+                ),
+              ),
             ],
           ),
         ),

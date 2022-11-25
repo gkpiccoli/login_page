@@ -7,6 +7,12 @@ Tela fake de login
 - Teclado Qwerty
 - Ocultação do campo senha
 
+
+O que pode ser adicionado?
+
+- Splash Screen
+- Home Screen
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
