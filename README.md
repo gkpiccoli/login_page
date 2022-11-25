@@ -1,12 +1,11 @@
 # login_screen
 
-Tela fake de login
+Tela de login
 
 - Inserção de campos
 - Teclado numérico
 - Teclado Qwerty
 - Ocultação do campo senha
-
 
 O que pode ser adicionado?
 
