@@ -1,6 +1,11 @@
 # login_screen
 
-A new Flutter project.
+Tela fake de login
+
+- Inserção de campos
+- Teclado numérico
+- Teclado Qwerty
+- Ocultação do campo senha
 
 ## Getting Started
 
