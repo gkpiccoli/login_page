@@ -6,10 +6,11 @@ Tela de login
 - Teclado numérico
 - Teclado Qwerty
 - Ocultação do campo senha
-
+- Splash screen @leandro
+- 
 O que pode ser adicionado?
 
-- Splash Screen
+
 - Home Screen
 
 ## Getting Started
