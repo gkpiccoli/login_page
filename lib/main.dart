@@ -47,7 +47,7 @@ class SplashScreen extends StatelessWidget {
         ),
       ),
       backgroundColor: Colors.blue,
-      nextScreen: PaginaLogin(),
+      nextScreen: const PaginaLogin(),
       splashIconSize: 300,
       duration: 3000,
       splashTransition: SplashTransition.slideTransition,
