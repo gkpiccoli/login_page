@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'screens/initialscreen.dart';
+
 class PaginaLogin extends StatefulWidget {
   const PaginaLogin({super.key});
 
@@ -24,10 +26,11 @@ class _PaginaLoginState extends State<PaginaLogin> {
                 keyboardType: TextInputType.text,
                 style: const TextStyle(
                   color: Colors.white,
-                  fontSize: 18,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold
                 ),
                 decoration: const InputDecoration(
-                    labelText: 'Usuário',
+                    labelText: 'E-mail',
                     labelStyle: TextStyle(color: Colors.black)),
               ),
               // TextFormField(
@@ -48,7 +51,8 @@ class _PaginaLoginState extends State<PaginaLogin> {
                 obscureText: true,
                 style: const TextStyle(
                   color: Colors.white,
-                  fontSize: 18,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold
                 ),
                 decoration: const InputDecoration(
                     labelText: 'Senha',
@@ -62,10 +66,15 @@ class _PaginaLoginState extends State<PaginaLogin> {
                     Container(
                       height: 50,
                       width: 120,
-                      padding: const EdgeInsets.fromLTRB(10, 10, 10, 10),
+                      padding: const EdgeInsets.all(10),
                       child: ElevatedButton(
                         child: const Text('Login'),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (contextNew) => InitialScreen()));
+                        },
                       ),
                     ),
                   ],
