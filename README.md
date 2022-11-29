@@ -25,5 +25,5 @@ Objetivo primário de revisar alguns conceitos mais simples bem como treinar a c
 
 ## Elaborado por 
 
-* linkedin.com/in/leandro-marcelino-93j 
 * linkedin.com/in/gkpiccoli
+* linkedin.com/in/leandro-marcelino-93j 
