@@ -12,8 +12,11 @@ class _InitialScreenState extends State<InitialScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Página de Login'),
+        title: const Text('Página de Login'),
       ),
+      body: const Text(
+          'Esse aplicativo foi criado com o intuíto de fazer um trabalho em time, obrigado por testar!'),
+      backgroundColor: Colors.white70,
     );
   }
 }
