@@ -1,27 +1,29 @@
-# login_screen
+## Apresentação 
 
-Tela de login
+Feature baseada na tela de login de um aplicativo, o projeto consiste em uma tela de abertura + tela de login que leva para uma Home Screen. 
 
-- Inserção de campos
-- Teclado numérico
-- Teclado Qwerty
-- Ocultação do campo senha
-- Splash screen @leandro
-- 
-O que pode ser adicionado?
+Projeto Tela de login
 
+* Inserção de campos
+* Teclado numérico
+* Teclado Qwerty
+* Ocultação do campo senha
+* Splash screen  
 
-- Home Screen
+## Demonstração 
 
-## Getting Started
+![20221129_103859](https://user-images.githubusercontent.com/109693767/204576441-d56efd92-44da-4f6c-a975-1e212a8ae4e4.gif)
 
-This project is a starting point for a Flutter application.
+## O Desafio 
 
-A few resources to get you started if this is your first Flutter project:
+Objetivo primário de revisar alguns conceitos mais simples bem como treinar a capacidade de trabalho em conjunto. 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## :hammer_and_wrench:	Como rodar o projeto? 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Preferencialmente, tenha uma IDE (Integrated Development Environment - Ambiente de desenvolvimento integrado) instalada em sua máquina, que pode ser Android Studio, IntelliJ ou VSCode. 
+* Ter o SDK do Flutter correspondente a >=2.18.0 <3.0.0
+
+## Elaborado por 
+
+* linkedin.com/in/leandro-marcelino-93j 
+* linkedin.com/in/gkpiccoli
