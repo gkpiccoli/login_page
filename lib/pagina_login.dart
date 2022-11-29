@@ -73,7 +73,7 @@ class _PaginaLoginState extends State<PaginaLogin> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (contextNew) => InitialScreen()));
+                                  builder: (contextNew) => const InitialScreen()));
                         },
                       ),
                     ),

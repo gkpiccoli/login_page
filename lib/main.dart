@@ -15,7 +15,7 @@ class MeuApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Página de login',
       theme: ThemeData(primarySwatch: Colors.lightBlue),
-      home: SplashScreen(),
+      home: const SplashScreen(),
     );
   }
 }
@@ -34,7 +34,7 @@ class SplashScreen extends StatelessWidget {
             children: [
               ClipRRect(
                 borderRadius: BorderRadius.circular(15),
-                child: Image.asset('assets/images/imagem flutter.jpg',
+                child: Image.asset('assets/images/imagem_flutter.jpg',
                   fit: BoxFit.cover,),
               ),
               const Text('',
