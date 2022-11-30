@@ -2,13 +2,17 @@
 
 Feature baseada na tela de login de um aplicativo, o projeto consiste em uma tela de abertura + tela de login que leva para uma Home Screen. 
 
-Projeto Tela de login
+Projeto Tela de login:
 
+* Splash screen
+* Tela de login
+* Tela inicial
 * Inserção de campos
 * Teclado numérico
 * Teclado Qwerty
 * Ocultação do campo senha
-* Splash screen  
+
+
 
 ## Demonstração 
 
@@ -23,7 +27,7 @@ Objetivo primário de revisar alguns conceitos mais simples bem como treinar a c
 * Preferencialmente, tenha uma IDE (Integrated Development Environment - Ambiente de desenvolvimento integrado) instalada em sua máquina, que pode ser Android Studio, IntelliJ ou VSCode. 
 * Ter o SDK do Flutter correspondente a >=2.18.0 <3.0.0
 
-## Elaborado por 
+## Elaborado por: 
 
-* linkedin.com/in/gkpiccoli
-* linkedin.com/in/leandro-marcelino-93j 
+- @gustavokpiccoli - [LinkedIn Profile](https://www.linkedin.com/in/gkpiccoli/)
+- @leandromarcelino93 - [LinkedIn Profile](https://www.linkedin.com/in/leandro-marcelino-93j) 
