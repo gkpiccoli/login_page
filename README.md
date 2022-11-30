@@ -29,5 +29,5 @@ Objetivo primário de revisar alguns conceitos mais simples bem como treinar a c
 
 ## Elaborado por: 
 
-- @gustavokpiccoli - [LinkedIn Profile](https://www.linkedin.com/in/gkpiccoli/)
-- @leandromarcelino93 - [LinkedIn Profile](https://www.linkedin.com/in/leandro-marcelino-93j) 
+- @gustavokpiccoli - [LinkedIn](https://www.linkedin.com/in/gkpiccoli/)
+- @leandromarcelino93 - [LinkedIn](https://www.linkedin.com/in/leandro-marcelino-93j) 
