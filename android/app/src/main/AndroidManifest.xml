@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.login_screen">
+    package="br.com.gkpdev.login_screen">
    <application
         android:label="login_screen"
         android:name="${applicationName}"
