@@ -34,8 +34,10 @@ class SplashScreen extends StatelessWidget {
             children: [
               ClipRRect(
                 borderRadius: BorderRadius.circular(15),
-                child: Image.asset('assets/images/imagem_flutter.jpg',
-                  fit: BoxFit.cover,),
+                child: Image.asset(
+                  'assets/images/imagem_flutter.jpg',
+                  fit: BoxFit.cover,
+                ),
               ),
               const Text('',
                   style: TextStyle(
@@ -49,7 +51,7 @@ class SplashScreen extends StatelessWidget {
       backgroundColor: Colors.blue,
       nextScreen: const PaginaLogin(),
       splashIconSize: 300,
-      duration: 3000,
+      duration: 2000,
       splashTransition: SplashTransition.slideTransition,
       animationDuration: const Duration(seconds: 2),
     );
